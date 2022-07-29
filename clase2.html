@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>clase 2</title>
+</head>
+<!-- este elemento sirve para colocar comentarios q no se ven en la pagina-->
+
+<body>
+    <header>
+        <nav>
+            <h1> Mantenimiento mecanico</h1>
+            <ul>
+                <li>
+                    <a href="#">contactenos</a>
+                </li>
+                <li>
+                    <a href="#">sobre nosotros</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <!-- strong= es para colocar en negrito-->
+                <strong>esto esta en negrita</strong>
+            </div>
+            <a href="#">esto es un link 1</a>
+            <br /> <!-- # esto se utiliza para que no te redirija el link-->
+            <a href="#">este es un link 2</a>
+            <!-- a herf= es para colocar la frase como link -->
+
+        </section>
+        <!-- control + shift + p = luego colocas < F y te sale </br
+        Formant documento = Es para poner todo el codigo bien -->
+        <section>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </section>
+        <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit velit id consequuntur veniam! Earum,
+                praesentium?</p>
+        </section>
+    </main>
+    <main>
+        <section>
+            <table>
+                <tr>
+                    <th>lunes</th>
+                    <th>martes</th>
+                    <th>miercoles</th>
+                    <th>jueves</th>
+                    <th>viernes</th>
+                </tr>
+                <tr>
+                    <td>
+                        gym
+                    </td>
+                    <td>cursar facu</td>
+                    <td>viajar</td>
+                    <td>trabajar</td>
+                    <td>estudiar</td>
+                </tr>
+                <tr>
+                    <td>
+                        depote
+                    </td>
+                    <td>manejar</td>
+                    <td>comer</td>
+                    <td>caminar</td>
+                    <td>vacaciones</td>
+                </tr>
+
+            </table>
+            <section>
+                <h2> Formularios</h2>
+                <form method="get"></form>
+            </section>
+        </section>
+        <section>
+            <form>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="ingresa tu nombre wey" />
+                </div>
+                <!-- plceholder = atributo para se vea en el cuadro ingresa tu nombre-->
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" />
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" />
+                </div>
+                <div>
+                    <label for="dni">Dni</label>
+                    <input type="number" id="dni" />
+                </div>
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" />
+                </div>
+                <div>
+                    <p> A que se dedica</p>
+                    <input type="radio" name="profesion" id="empleado">
+                    <label for="profesion"> Empleados</label>
+
+                    <input type="radio" name="profesion" id="estudiante">
+                    <label for="profesion"> Estudiante</label>
+
+                    <input type="radio" name="profesion" id="autonomo">
+                    <label for="profesion"> Autonomo</label>
+
+                    <input type="radio" name="profesion" id="Jubilado">
+                    <label type="radio">Jubilado</label>
+                </div>
+                <id>
+                    <input type="checkbox" id="terminos">
+                    <label for="terminos">Acepta terminos y condiciones</label>
+                </id>
+
+                <div>
+                    <label for="email"> correo electronico </label>
+                    <input type="email" id="email" required />
+                    <!-- required = elemento requerido para completar el formulario-->
+                </div>
+                <div>
+                    <label for="fecha de nacimiento"> Fecha de Nacimiento</label>
+                    <input type="date" id="fechaNacimiento">
+                </div>
+
+                <div>
+
+                    <select name="edad" id="edad">
+                        <option>Seleccione su edad </option>
+                        <option value="1822">18 a 22 </option>
+                        <option value="2320">23 a 20</option>
+                        <option value="3150">31 a 50</option>
+
+                    </select>
+
+                    <div>
+                        <textarea name="description" id="description" required cols="30" rows="10"
+                            placeholder="Escriba una descripcion"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit"> ENVIAR </button>
+                    </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>sobre nosotros</li>
+            <li>ayuda</li>
+            <li>contactenos</li>
+        </ul>
+    </footer>
+
+
+
+
+</body>
+
+</html>
